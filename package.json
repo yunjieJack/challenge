@@ -10,6 +10,10 @@
     "@types/node": "^16.18.84",
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
+    "csvtojson": "^2.0.10",
+    "http-proxy-middleware": "^2.0.6",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -20,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "startService": "node service/app.js"
   },
   "eslintConfig": {
     "extends": [

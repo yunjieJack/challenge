@@ -7,6 +7,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const data = await fetch('/api/data')
+console.log(data)
+
 root.render(
   <React.StrictMode>
     <App />
