@@ -8,8 +8,13 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
+let list = []
+
 const data = await fetch('/api/data')
-console.log(data)
+if (data.ok) {
+    list = await data.json()
+}
+console.log(list)
 
 root.render(
   <React.StrictMode>
