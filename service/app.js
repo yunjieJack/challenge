@@ -1,5 +1,5 @@
 const koa = require('koa')
-const dataRouter = require('./data/data')
+const dataRouter = require('./fileReader/fileReader')
 
 const app = new koa()
 
